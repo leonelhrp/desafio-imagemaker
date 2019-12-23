@@ -1,0 +1,32 @@
+{
+  "name": "desafio-imagemaker-api",
+  "version": "1.0.0",
+  "description": "Repositorio para Desafío de imagemaker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonelhrp/desafio-imagemaker-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "imagemaker"
+  ],
+  "author": "Leonel Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonelhrp/desafio-imagemaker-api/issues"
+  },
+  "homepage": "https://github.com/leonelhrp/desafio-imagemaker-api#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "redis": "^2.8.0"
+  }
+}
